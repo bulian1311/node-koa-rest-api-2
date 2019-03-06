@@ -1,0 +1,45 @@
+{
+  "name": "magmer-server",
+  "version": "1.0.0",
+  "description": "Restfull api for magmer project",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "SET \"NODE_ENV=test\" && mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/bulian1311/magmer-server.git"
+  },
+  "keywords": [
+    "magmer",
+    "api",
+    "rest"
+  ],
+  "author": "Nikolay Kachanov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/bulian1311/magmer-server/issues"
+  },
+  "homepage": "https://gitlab.com/bulian1311/magmer-server-2#readme",
+  "devDependencies": {
+    "expect": "^23.6.0",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.5",
+    "supertest": "^3.4.1"
+  },
+  "dependencies": {
+    "@koa/cors": "^2.2.2",
+    "jsonwebtoken": "^8.4.0",
+    "koa": "^2.6.1",
+    "koa-bodyparser": "^4.2.1",
+    "koa-json": "^2.0.2",
+    "koa-jwt": "^3.5.1",
+    "koa-logger": "^3.2.0",
+    "koa-router": "^7.4.0",
+    "mongoose": "^5.3.8",
+    "mongoose-algolia": "^1.7.1",
+    "nodemailer": "^5.1.1"
+  }
+}
